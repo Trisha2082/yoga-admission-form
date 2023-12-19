@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background: #ceb1d6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 100px; /* Set the height of your logo */
+  margin-bottom: 20px; /* Add some margin to separate the logo from the form */
+}
+
+form {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #61dafb;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.App-logo {
+  background: url('./logo.jpg') center/cover no-repeat;
+  height: 95px;
+  width: 95px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.App-header {
+  background-color: #efc7e6;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, h2, .form-group {
+  color: #b350be;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  body {
+    margin: 0;
+  }
+  
+  .App {
+    text-align: center;
+    background: #efc6e5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-logo {
+    background: url('./logo.jpg') center/cover no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .App-header {
+    background-color: #eaaae1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, .form-group {
+    color: #ae51b9;
+  }
+  
+  form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6f1f97;
+    text-align: left;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #b350be;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #6f1f97;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #b350be;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
