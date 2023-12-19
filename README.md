@@ -31,7 +31,7 @@ Follow these steps to run the application locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/trisha2082/yoga-admission-form.git
 
 #backend: Contains the backend code for processing admission forms and payments.
 Yoga Admission Form Backend
@@ -52,7 +52,7 @@ This backend application is part of the Yoga Admission Form project. It's respon
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/trisha2082/yoga-admission-form-backend.git
+   git clone https://github.com/trisha2082/yoga-admission-form.git
    
 How to Run
 Clone the repository:
@@ -60,47 +60,19 @@ Clone the repository:
 bash
 Copy code
 git clone https://github.com/trisha2082/yoga-admission-form.git
-Install dependencies:
-bash
-Copy code
-cd frontend
-npm install
-bash
-Copy code
-cd backend
-[Command for installing backend dependencies]
-Run the application:
-bash
-Copy code
-cd frontend
-npm start
-bash
-Copy code
-cd backend
-[Command for starting the backend server]
-Access the application in your browser:
-bash
-Copy code
-http://localhost:3000
 
 #API Endpoints
 Enroll Participant
 Endpoint: /api/enroll
 Method: POST
+
 Request Body:
-json
-Copy code
 {
   "name": "Participant Name",
   "age": 25,
   "batch": "7-8AM"
 }
 Response:
-json
-Copy code
 {
   "success": true
 }
-
-#Contact
-For any issues or questions, please contact Trisha at trishai2082@gmail.com
